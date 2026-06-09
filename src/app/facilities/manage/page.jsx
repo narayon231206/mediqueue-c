@@ -245,7 +245,7 @@ export default function ManageMyFacilitiesPage() {
                 <div className="space-y-2">
                   <h3 className="text-lg font-bold text-slate-800 dark:text-slate-350">No facilities listed</h3>
                   <p className="text-xs text-slate-655 dark:text-slate-500 leading-relaxed max-w-xs mx-auto font-semibold">
-                    You haven't listed any sports facilities on SportNest yet. Register your fields or turfs and start hosting bookings!
+                    You haven't listed any tutoring or facility services on MediQueue yet. Start by adding your first listing and open your availability to learners.
                   </p>
                 </div>
                 <Link
@@ -318,7 +318,7 @@ export default function ManageMyFacilitiesPage() {
                       </div>
 
                       {/* Actions button row */}
-                      <div className="flex gap-3 pt-2 mt-auto border-t border-slate-100 dark:border-slate-800/60 pt-4">
+                      <div className="flex gap-3 mt-auto border-t border-slate-100 dark:border-slate-800/60 pt-4">
                         <button
                           onClick={() => handleEditClick(facility)}
                           className="flex-grow flex items-center justify-center bg-slate-100 hover:bg-slate-200 text-slate-700 dark:bg-slate-800 dark:hover:bg-slate-750 dark:text-slate-200 py-2.5 rounded-xl text-xs font-bold uppercase tracking-wider transition-all border border-slate-200 dark:border-slate-700/30 active:scale-95 shadow-sm"
@@ -350,7 +350,7 @@ export default function ManageMyFacilitiesPage() {
             onClose={() => setIsDeleteOpen(false)}
             onConfirm={handleConfirmDelete}
             title="Delete Turf Listing?"
-            message="Are you sure you want to delete this facility listed? This will permanently erase the listing and all details from SportNest index boards."
+            message="Are you sure you want to delete this listing? This will permanently remove the facility or service information from MediQueue."
             confirmText={deleting ? 'Deleting...' : 'Delete Facility'}
             cancelText="Keep Listing"
             isDanger={true}

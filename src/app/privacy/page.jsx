@@ -13,8 +13,8 @@ import {
 } from 'lucide-react';
 
 export const metadata = {
-  title: 'Privacy Policy - SportNest',
-  description: 'Read the privacy policy for user accounts, booking information, and data storage on SportNest.',
+  title: 'Privacy Policy - MediQueue',
+  description: 'Read the privacy policy for user accounts, booking information, and data storage on MediQueue.',
 };
 
 export default function PrivacyPage() {
@@ -25,7 +25,7 @@ export default function PrivacyPage() {
       id: 'collection',
       icon: Eye,
       title: '1. Information We Collect',
-      content: 'We collect information you provide directly to us when creating a SportNest account, booking a sports slot, or listing a facility. This includes your name, email address, phone number, payment details, and photos of facilities. We also log analytical data such as IP address, browser type, and device details to optimize page performance.'
+      content: 'We collect information you provide directly to us when creating a MediQueue account, browsing tutors, booking sessions, or listing learning resources. This includes your name, email address, phone number, account details, and any profile information needed to support the platform experience. We also log analytical data such as IP address, browser type, and device details to optimize page performance.'
     },
     {
       id: 'usage',
@@ -37,7 +37,7 @@ export default function PrivacyPage() {
       id: 'sharing',
       icon: Share2,
       title: '3. Data Sharing & Disclosures',
-      content: 'We do not sell your personal data. We share relevant contact information (name, phone number) with the sports facility owners/hosts where you book a slot to ensure entry and security verification. We also share details with secure payment processors. If legally required by law enforcement or government authorities, we may disclose details to comply with regulations.'
+      content: 'We do not sell your personal data. We share relevant account details with authorized tutors or service providers when required to complete bookings and support the session experience. We also share details with secure payment processors when necessary. If legally required by law enforcement or government authorities, we may disclose details to comply with regulations.'
     },
     {
       id: 'security',
@@ -49,7 +49,7 @@ export default function PrivacyPage() {
       id: 'cookies',
       icon: Cookie,
       title: '5. Cookies & Local Storage',
-      content: 'SportNest uses cookies and local storage tokens to persist your session login status and store theme preferences (such as dark mode state). You can choose to disable cookies in your browser settings, but please note that some interactive functionalities of the slot booking system might fail to function as a result.'
+      content: 'MediQueue uses cookies and local storage tokens to persist your session login status and store theme preferences (such as dark mode state). You can choose to disable cookies in your browser settings, but please note that some interactive functionalities of the booking platform might fail to function as a result.'
     },
     {
       id: 'rights',
@@ -67,7 +67,7 @@ export default function PrivacyPage() {
       id: 'contact',
       icon: Mail,
       title: '8. Contacting the Privacy Team',
-      content: 'If you have any questions or security concerns regarding this Privacy Policy, feel free to contact us via email at masud.dev01@gmail.com, or mail us at: Chirirbandar, Dinajpur-5200, Bangladesh.'
+      content: 'If you have any questions or security concerns regarding this Privacy Policy, feel free to contact us via email at narayon231206@gmail.com or through the project maintainer contact listed in the repository.'
     }
   ];
 

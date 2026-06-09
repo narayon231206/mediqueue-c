@@ -27,12 +27,12 @@ const Footer = () => {
               </span>
             </Link>
             <p className="text-sm text-slate-600 dark:text-slate-400 leading-relaxed font-medium">
-              EduConnect is the leading online tutoring marketplace. Connect with qualified educators, book personalized sessions, and achieve your academic goals with expert guidance.
+              MediQueue is a modern tutoring and booking platform designed for students, tutors, and facility owners seeking a clean, dependable learning experience.
             </p>
             {/* Social Links */}
             <div className="flex space-x-3 pt-3">
               <a 
-                href="https://www.facebook.com/masudranamdra1/" 
+                href="https://www.facebook.com/narayon.chandra.barman.268107/" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group/icon p-3 rounded-lg bg-slate-100 dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700/40 text-slate-500 dark:text-slate-450 hover:text-blue-600 dark:hover:text-sky-400 hover:bg-blue-50 dark:hover:bg-slate-800 hover:border-blue-500/30 dark:hover:border-sky-500/30 transition-all duration-300 group-hover/icon:scale-110" 
@@ -41,7 +41,7 @@ const Footer = () => {
                 <Facebook className="h-5 w-5" />
               </a>
               <a 
-                href="https://www.linkedin.com/in/masudranamdra/" 
+                href="https://www.linkedin.com/in/narayon-chandra-barman-b9492a390/" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group/icon p-3 rounded-lg bg-slate-100 dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700/40 text-slate-500 dark:text-slate-450 hover:text-blue-600 dark:hover:text-sky-400 hover:bg-blue-50 dark:hover:bg-slate-800 hover:border-blue-500/30 dark:hover:border-sky-500/30 transition-all duration-300 group-hover/icon:scale-110" 
@@ -50,7 +50,7 @@ const Footer = () => {
                 <Linkedin className="h-5 w-5" />
               </a>
               <a 
-                href="https://github.com/masudranamdra" 
+                href="https://github.com/narayon231206" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group/icon p-3 rounded-lg bg-slate-100 dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700/40 text-slate-500 dark:text-slate-450 hover:text-blue-600 dark:hover:text-sky-400 hover:bg-blue-50 dark:hover:bg-slate-800 hover:border-blue-500/30 dark:hover:border-sky-500/30 transition-all duration-300 group-hover/icon:scale-110" 
@@ -59,7 +59,7 @@ const Footer = () => {
                 <Github className="h-5 w-5" />
               </a>
               <a 
-                href="https://www.youtube.com/@Masudranamdra" 
+                href="https://www.youtube.com/" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group/icon p-3 rounded-lg bg-slate-100 dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700/40 text-slate-500 dark:text-slate-450 hover:text-blue-600 dark:hover:text-sky-400 hover:bg-blue-50 dark:hover:bg-slate-800 hover:border-blue-500/30 dark:hover:border-sky-500/30 transition-all duration-300 group-hover/icon:scale-110" 
@@ -148,7 +148,7 @@ const Footer = () => {
         {/* Bottom copyright bar */}
         <div className="mt-16 pt-8 border-t border-slate-200 dark:border-slate-900 text-xs text-slate-500 dark:text-slate-500 font-semibold">
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
-            <p>© {currentYear} EduConnect Learning Platform. Empowering students worldwide. All rights reserved.</p>
+            <p>© {currentYear} MediQueue. A polished tutor booking platform for modern learning experiences. All rights reserved.</p>
             <div className="flex space-x-6">
               <Link href="/terms" className="hover:text-blue-600 dark:hover:text-sky-400 transition-colors duration-200">
                 Terms of Service

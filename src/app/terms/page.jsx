@@ -14,8 +14,8 @@ import {
 } from 'lucide-react';
 
 export const metadata = {
-  title: 'Terms of Service - SportNest',
-  description: 'Read the terms of service and rules for reserving and booking sports facilities on SportNest.',
+  title: 'Terms of Service - MediQueue',
+  description: 'Read the terms of service and rules for using the MediQueue tutor booking platform.',
 };
 
 export default function TermsPage() {
@@ -26,19 +26,19 @@ export default function TermsPage() {
       id: 'acceptance',
       icon: Scale,
       title: '1. Acceptance of Terms',
-      content: 'By accessing, registering, or using the SportNest booking platform ("Service"), you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our services. These terms apply to all visitors, users, players, and facility providers who access or use the Service.'
+      content: 'By accessing, registering, or using the MediQueue booking platform ("Service"), you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our services. These terms apply to all visitors, users, tutors, and facility providers who access or use the Service.'
     },
     {
       id: 'accounts',
       icon: UserCheck,
       title: '2. User Accounts & Security',
-      content: 'To book fields or register a facility, you must create a SportNest account. You are responsible for safeguarding your password and account credentials. You agree to provide accurate, current, and complete information during registration. Any booking made under your credentials is your sole responsibility. SportNest reserves the right to suspend accounts that provide false information or violate platform integrity.'
+      content: 'To book a session or list a service, you must create a MediQueue account. You are responsible for safeguarding your password and account credentials. You agree to provide accurate, current, and complete information during registration. Any booking made under your credentials is your sole responsibility. MediQueue reserves the right to suspend accounts that provide false information or violate platform integrity.'
     },
     {
       id: 'bookings',
       icon: Calendar,
       title: '3. Facility Booking & Reservations',
-      content: 'SportNest acts as an intermediary facilitating the connection between sports players and arena/court hosts. When you book a time slot, you enter into a direct agreement with the facility provider. Slot bookings are subject to availability and the specific rules of each individual facility. You must respect the selected date and time slots; arriving late does not extend your reservation.'
+      content: 'MediQueue acts as an intermediary facilitating the connection between learners and tutors or facility providers. When you book a session or listing, you enter into a direct agreement with the relevant provider. Bookings are subject to availability and the rules of each individual tutor or facility. You must respect the selected date and time; arriving late does not extend your reservation.'
     },
     {
       id: 'cancellations',
@@ -50,19 +50,19 @@ export default function TermsPage() {
       id: 'payments',
       icon: Coins,
       title: '5. Fees, Pricing & Payments',
-      content: 'All prices listed on the platform are determined by the respective facility providers. SportNest does not charge hidden fees. Secure online payment processing is integrated via authorized payment gateways. You agree to pay the listed slot fees, along with any applicable taxes. We reserve the right to modify booking fee structures with prior notice.'
+      content: 'All prices listed on the platform are determined by the respective tutors or facility providers. MediQueue does not charge hidden fees. Secure online payment processing is integrated via authorized payment gateways where applicable. You agree to pay the listed session or booking fees, along with any applicable taxes. We reserve the right to modify booking fee structures with prior notice.'
     },
     {
       id: 'conduct',
       icon: HelpCircle,
       title: '6. User Conduct & Ground Rules',
-      content: 'Players must abide by the rules of the respective sports arenas. Damage to the property, vandalism, physical or verbal violence, or playing outside the designated hours may result in immediate expulsion from the arena, liability for repairs, and permanent suspension of your SportNest account. Play clean, respect others.'
+      content: 'Users must abide by the rules of the respective tutor, facility, or session environment. Damage to property, misuse of services, harassment, or violation of the agreed schedule may result in removal from the platform and permanent suspension of your MediQueue account. Please act respectfully and responsibly.'
     },
     {
       id: 'liability',
       icon: AlertCircle,
       title: '7. Limitation of Liability',
-      content: 'SportNest is not responsible for injuries, health issues, lost items, or accidents occurring at any sports facility. We do not own or manage the arenas listed. Hosts are solely responsible for physical safety and equipment quality. To the maximum extent permitted by law, SportNest is not liable for direct, indirect, or consequential damages resulting from your usage of the platform.'
+      content: 'MediQueue is not responsible for injuries, health issues, lost items, or accidents occurring in tutor or facility environments. We do not own or manage every listed venue or service provider. Hosts and tutors are solely responsible for safety, quality, and compliance. To the maximum extent permitted by law, MediQueue is not liable for direct, indirect, or consequential damages resulting from your usage of the platform.'
     },
     {
       id: 'amendments',
@@ -90,7 +90,7 @@ export default function TermsPage() {
             Terms of Service
           </h1>
           <p className="text-sm sm:text-base text-slate-400 max-w-xl mx-auto font-medium">
-            Please read these terms carefully before booking any sports facility.
+            Please read these terms carefully before booking any tutoring or facility service.
           </p>
           <div className="text-xs text-slate-550 pt-2 font-semibold">
             Last Updated: <span className="text-slate-300">{lastUpdated}</span>

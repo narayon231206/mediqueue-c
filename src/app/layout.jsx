@@ -13,8 +13,24 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: 'MediQueue - Professional Tutor Booking Platform',
-  description: 'Connect with expert tutors for personalized learning. Book online or offline tutoring sessions easily. Quality education at your fingertips.',
+  metadataBase: new URL('https://mediqueue-lern.vercel.app/'),
+  title: 'MediQueue | Tutor Booking Platform',
+  description: 'MediQueue is a polished tutor booking and learning platform for students, tutors, and facility owners.',
+  keywords: ['MediQueue', 'tutor booking', 'online tutoring', 'education platform', 'portfolio project'],
+  authors: [{ name: 'Narayon Chandra Barman' }],
+  openGraph: {
+    title: 'MediQueue | Tutor Booking Platform',
+    description: 'Discover tutors, manage sessions, and book learning support with a modern full-stack web application.',
+    url: 'https://mediqueue-lern.vercel.app/',
+    siteName: 'MediQueue',
+    type: 'website'
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'MediQueue | Tutor Booking Platform',
+    description: 'A modern tutor booking and learning platform for students, tutors, and facility owners.',
+    creator: '@narayon231206'
+  }
 };
 
 export default function RootLayout({ children }) {
